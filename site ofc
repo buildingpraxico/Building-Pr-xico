@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>  BUILDING PRÁXICO  </title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="imagem/png"
+	href="C:\Users\famil\Desktop\site pronto.jpeg">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+  <img href="Building praxico original.html" id="img2" src="C:/Users/famil/Desktop/site pronto/imgbuilding.jpg" height="100" width="150" img align="left">   
+
+ <style>
+ 
+ body{
+ 	background-color: #E7BB41;
+ }
+
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ .menu {
+  width: 100%;
+  height: 110px;
+  background: #fff;
+  font-family: 'Arial';
+ }
+
+ .menu ul {
+  list-style: none;
+  position: relative;
+ }
+
+ .menu ul li {
+  width: 250px;
+  //background: tomato;
+  float: left;
+ }
+
+ .menu a {
+  background-color: #fff;
+  padding: 25px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+ }
+
+ .menu a:hover {
+  background-color: #fff;
+  color: #E7BB41;
+ }
+
+ .menu ul ul {
+  position: absolute;
+  visibility: hidden;
+ }
+
+ .menu ul li:hover ul {
+  visibility: visible;
+ }
+
+ .menu ul ul li {
+  float: none;
+  border-bottom: solid 1px #000;
+ }
+
+ .menu ul ul li a {
+  background-color: #E7BB41
+; 
+ }
+
+ label[for="bt_menu"] {
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Arial';
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: none;
+ }
+
+ #bt_menu {
+  display: none;
+ }
+
+ @media (max-width: 800px) {
+  label[for="bt_menu"] {
+   display: block;
+  }
+
+  #bt_menu:checked ~ .menu {
+   margin-left: 0;
+  }
+
+  .menu {
+   margin-top: 5px;
+   margin-left: -100%;
+   transition: all .4s;
+  }
+
+  .menu ul li {
+   width: 100%;
+   float: none;
+  }
+  .menu ul ul {
+   position: static;
+   overflow: hidden;
+   max-height: 0;
+   transition: all .8s;
+  }
+
+  .menu ul li:hover ul {
+   height: auto;
+   max-height: 200px;
+  }
+ .cordefundo{
+ 	background-color: #E7BB41;
+ }
+
+ }
+
+ 
+ 	.imagem{
+
+  float: left;
+  width: 500px;
+  padding: 60px;
+}
+
+img{
+  width: 50%;
+  padding-left: 0%;
+}
+#img1{
+	width: 1366px;
+	height: 720px
+}
+#img2{
+	width: 10%
+}
+
+#img3{
+	padding-left: 30%
+}
+
+#img4{
+	padding-left: 30%
+}
+
+#cordefundo {background-color: #838B8B;
+
+}
+
+#cordefundo2 {background-color: #FFF;
+
+}
+
+#contato {
+	color: #E7BB41;
+}
+
+
+
+ </style>
+
+
+<body>
+ <input type="checkbox" id="bt_menu">
+ <label for="bt_menu">&#9776;</label>
+
+ <nav class="menu">
+  <ul>
+   <H5><li><a href="Building praxico original.html"><br>HOME</a></li></H5>
+   <li>
+   <h5><a href="quem somos.html"><br>QUEM SOMOS</a><li></h5>
+   </li>
+   <li>
+    <h5><a href="Tecnologia.html"><br>PROJETOS</a></h5>
+   </li>
+   
+  <h5><li><a href="ods.html"><br>ODS</a></li></h5>
+    <li>
+    <h5><a href="login.html"><br>LOGIN</a></h5>
+   </li>
+  </ul>
+
+ </nav>
+ <div id="cordefundo">
+ <br>
+ <br>
+ <center><img id="img1" src="C:\Users\famil\Desktop\site pronto/img principal 2.jpg"></center>
+<br>
+<br>
+<br>
+ <center><h1>Somos uma empresa voltada para o ramo de construções totalmente sustentáveis, em que priorizamos a qualidade o comprometimento e a eficiência.</h1></center>
+ <br>
+ <br>
+ <br> 
+<hr>
+</div>
+
+
+<div>
+ <div class="imagem">
+   <img id="img3" src="C:\Users\famil\Desktop\site pronto/mapa.png"/> <br>
+   <br>
+   <br>
+    <center><p><h2>Estamos presentes em 12 Estados do Brasil</h2></p></center>
+ </div>
+
+  <div class="imagem">
+   <img id="img3" src="C:\Users\famil\Desktop\site pronto/predio.png"/>
+   <br>
+   <br>
+   <center><p><h2>Já realizamos mais de 15 mil construções</h2></p></center>
+ <center><p><h2>em todo país</h2></p></center>
+ </div>
+
+ <div class="imagem">
+ <img id="img3" src="C:\Users\famil\Desktop\site pronto/pessoas.png"/>
+ <br>
+ <br>
+ <center><p><h2>Possuímos o total de 2 mil</h2></p></center>
+ <center><p><h2>funcionários em nossa corporação</h2></p></center>
+ </div>
+ </div>
+
+
+
+<hr>
+ <br>
+ <br>
+ <br>
+ <center><h1>PARCEIROS</h1></center>
+
+ <div class="imagem">
+   <img id="img4" src="C:\Users\famil\Desktop\site pronto/cidadesss.png"/>
+ </div>
+
+  <div class="imagem">
+   <img id="img4" src="C:\Users\famil\Desktop\site pronto/mrv1.png"/>
+ </div>
+
+ <div class="imagem">
+ <img id="img4" src="C:\Users\famil\Desktop\site pronto/votorantim2.png"/>
+ </div>
+
+</body>
+
+<div id="contato" >
+<center><h1>contatos</h1></center>
+</div>
+
+<div id="cordefundo2">
+<CENTER><H1>CONTATO</H1></CENTER>
+
+Tel: (11) 4181-0667   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</html>
